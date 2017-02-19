@@ -14,8 +14,8 @@ public class Input : MonoBehaviour {
   void Start() {
     answer = GameObject.Find("Answer").GetComponent<Text>();
     //value = Int32.Parse(GetComponent<Text>().text);
-    Debug.Log(textObject.text);
-    Debug.Log(answer.text);
+    //Debug.Log(textObject.text);
+    //Debug.Log(answer.text);
   }
 
   // Update is called once per frame
